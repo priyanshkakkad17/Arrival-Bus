@@ -4,12 +4,12 @@ import Link from "next/link";
 import { ChevronLeft, ChevronRight, ArrowUp } from "lucide-react";
 
 const products = [
-  { title: "Sleeper Bus Bodies",     img: "/product-sleeper.jpg",  tag: "Intercity Overnight", href: "/products" },
-  { title: "School Bus Bodies",      img: "/product-school.jpg",   tag: "AIS-052 Safety",      href: "/products" },
-  { title: "Electric Bus Bodies",    img: "/product-electric.jpg", tag: "Zero Emission",       href: "/products" },
-  { title: "Staff Bus Bodies",       img: "/fleet.jpg",            tag: "Corporate Fleet",     href: "/products" },
-  { title: "City & Intercity",       img: "/hero-bus.jpg",         tag: "High Utilisation",    href: "/products" },
-  { title: "Luxury Tourist Coaches", img: "/interior.jpg",         tag: "Premium Interiors",   href: "/products" },
+  { title: "Sleeper Bus Bodies",     img: "/images/products/product-sleeper.jpg",  tag: "Intercity Overnight", href: "/products" },
+  { title: "School Bus Bodies",      img: "/images/products/product-school.jpg",   tag: "AIS-052 Safety",      href: "/products" },
+  { title: "Electric Bus Bodies",    img: "/images/products/product-electric.jpg", tag: "Zero Emission",       href: "/products" },
+  { title: "Staff Bus Bodies",       img: "/images/pages/fleet.jpg",               tag: "Corporate Fleet",     href: "/products" },
+  { title: "City & Intercity",       img: "/images/pages/hero-bus.jpg",            tag: "High Utilisation",    href: "/products" },
+  { title: "Luxury Tourist Coaches", img: "/images/pages/interior.jpg",            tag: "Premium Interiors",   href: "/products" },
 ];
 
 const N = products.length;

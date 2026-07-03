@@ -274,7 +274,7 @@ export default function ManufacturingPage() {
         eyebrow="— Manufacturing"
         title="A Factory That Runs On Engineering Discipline."
         subtitle="Eleven stages. Zero shortcuts. Every body is engineered, built, tested and signed off in one facility."
-        image="/manufacturing.jpg"
+        image="/images/pages/manufacturing.jpg"
       />
 
       {/* ── TIMELINE SECTION ── */}
@@ -353,7 +353,7 @@ export default function ManufacturingPage() {
         <div className="container-x grid lg:grid-cols-2 gap-16 items-center" style={{ paddingTop: "6rem", paddingBottom: "6rem" }}>
           <Reveal from="left">
             <div style={{ aspectRatio: "4/3", overflow: "hidden", border: "1px solid var(--border)" }}>
-              <img src="/chassis.jpg" alt="Structural fabrication" loading="lazy" style={{ height: "100%", width: "100%", objectFit: "cover" }} />
+              <img src="/images/pages/chassis.jpg" alt="Structural fabrication" loading="lazy" style={{ height: "100%", width: "100%", objectFit: "cover" }} />
             </div>
           </Reveal>
           <Reveal from="right" delay={150}>
@@ -389,7 +389,7 @@ export default function ManufacturingPage() {
           </p>
         </div>
         <div style={{ aspectRatio: "16/10", overflow: "hidden", border: "1px solid var(--border)" }}>
-          <img src="/interior.jpg" alt="Bus interior craftsmanship" loading="lazy" style={{ height: "100%", width: "100%", objectFit: "cover" }} />
+          <img src="/images/pages/interior.jpg" alt="Bus interior craftsmanship" loading="lazy" style={{ height: "100%", width: "100%", objectFit: "cover" }} />
         </div>
       </section>
     </SiteLayout>

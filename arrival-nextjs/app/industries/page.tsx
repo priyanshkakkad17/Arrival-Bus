@@ -177,7 +177,7 @@ export default function IndustriesPage() {
         eyebrow="— Industries Served"
         title="Fleets That Trust Our Engineering."
         subtitle="From central government STUs to boutique tour operators — we build to the standard the customer demands, not the standard the market accepts."
-        image="/fleet.jpg"
+        image="/images/pages/fleet.jpg"
       />
 
       {/* ── INDUSTRY CARDS ── */}

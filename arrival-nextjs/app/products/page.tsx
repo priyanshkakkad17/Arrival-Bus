@@ -12,42 +12,42 @@ type Product = {
 
 const products: Product[] = [
   {
-    slug: "sleeper", name: "Sleeper Coaches", tagline: "Overnight intercity travel, engineered for comfort.", image: "/product-sleeper.jpg",
+    slug: "sleeper", name: "Sleeper Coaches", tagline: "Overnight intercity travel, engineered for comfort.", image: "/images/products/product-sleeper.jpg",
     specs: [{ k: "Length", v: "11.0 – 13.5 m" },{ k: "Berth Config", v: "1×2, 2×1 or 2×2" },{ k: "Capacity", v: "24 – 42 berths" },{ k: "Superstructure", v: "Galvanized tubular + AL panels" }],
     features: ["AIS-119 Certified Berths","Reading Light + USB per Berth","Individual A/C Vents","LED Ambient Lighting","Panic Button & CCTV"],
     applications: ["Overnight Intercity","Premium Tourism","Pilgrimage Routes"],
     industries: ["Tour & Travel","Private Fleet Operators"],
   },
   {
-    slug: "school", name: "School Buses", tagline: "Built to the strictest child-safety codes in India.", image: "/product-school.jpg",
+    slug: "school", name: "School Buses", tagline: "Built to the strictest child-safety codes in India.", image: "/images/products/product-school.jpg",
     specs: [{ k: "Length", v: "7.5 – 10.5 m" },{ k: "Capacity", v: "32 – 55 students" },{ k: "Compliance", v: "AIS-052 School Bus Code" },{ k: "Emergency Exits", v: "Rear + side + roof hatch" }],
     features: ["High-visibility Yellow Paint","Speed Governor at 40 kmph","GPS + Panic Alarm","Grill Windows","First-Aid + Fire Extinguisher"],
     applications: ["K–12 Schools","Colleges","Coaching Institutes"],
     industries: ["Educational Institutions"],
   },
   {
-    slug: "staff", name: "Staff Buses", tagline: "High-utilisation corporate transport with premium comfort.", image: "/fleet.jpg",
+    slug: "staff", name: "Staff Buses", tagline: "High-utilisation corporate transport with premium comfort.", image: "/images/pages/fleet.jpg",
     specs: [{ k: "Length", v: "9.0 – 12.0 m" },{ k: "Capacity", v: "35 – 55 seats" },{ k: "A/C", v: "Roof-mount 2×5 TR" },{ k: "Seating", v: "Push-back / recliner" }],
     features: ["USB Charging at every seat","Overhead Luggage Bins","LED Reading Lights","Wi-Fi Router Ready","Reverse Camera + Sensors"],
     applications: ["Corporate Shuttles","IT Parks","Manufacturing Plants"],
     industries: ["Corporate Staff Transport","Private Fleet Operators"],
   },
   {
-    slug: "electric", name: "Electric Bus Bodies", tagline: "EV-native platforms, ready for zero-emission mobility.", image: "/product-electric.jpg",
+    slug: "electric", name: "Electric Bus Bodies", tagline: "EV-native platforms, ready for zero-emission mobility.", image: "/images/products/product-electric.jpg",
     specs: [{ k: "Body Weight", v: "-18% vs. steel body" },{ k: "Chassis", v: "Ashok Leyland, Tata, Olectra" },{ k: "Structure", v: "Aluminium space frame" },{ k: "HVAC", v: "Inverter A/C, low-load" }],
     features: ["Battery-Compartment Fire Barrier","Regen-Braking Aware Interior","Low-Floor Options","Lightweight Composite Panels","EV Charging Signage Package"],
     applications: ["City Transit","Airport Shuttles","Corporate Green Fleet"],
     industries: ["Government Transport","State Transport Undertakings"],
   },
   {
-    slug: "city", name: "City & Intercity Bus Bodies", tagline: "Built for high-cycle urban and intercity operations.", image: "/hero-bus.jpg",
+    slug: "city", name: "City & Intercity Bus Bodies", tagline: "Built for high-cycle urban and intercity operations.", image: "/images/pages/hero-bus.jpg",
     specs: [{ k: "Length", v: "9.0 – 12.0 m" },{ k: "Config", v: "2×2, 2×3, Low-floor" },{ k: "Capacity", v: "40 – 55 seated" },{ k: "Structure", v: "Galvanized steel skeleton" }],
     features: ["Kneeling Suspension Ready","Wide Doorways","Bell-Push Stop Request","Passenger Info Display","LED Destination Board"],
     applications: ["City Transit","Intercity Routes","BRT Corridors"],
     industries: ["State Transport Undertakings","Government Transport"],
   },
   {
-    slug: "luxury", name: "Luxury Tourist Coaches", tagline: "European-grade craftsmanship for premium tour operators.", image: "/interior.jpg",
+    slug: "luxury", name: "Luxury Tourist Coaches", tagline: "European-grade craftsmanship for premium tour operators.", image: "/images/pages/interior.jpg",
     specs: [{ k: "Length", v: "12.0 – 13.5 m" },{ k: "Seating", v: "2×1 recliner, 2×2 executive" },{ k: "A/C", v: "Split HVAC, 8+3 TR" },{ k: "Sound", v: "Premium PA + entertainment" }],
     features: ["Leather Upholstery","Personal Reading Light + USB","Onboard Refrigerator","Panoramic Tinted Glazing","Concealed Ambient Lighting"],
     applications: ["Premium Tourism","Corporate Offsites","Wedding Charters"],
@@ -100,7 +100,7 @@ export default function ProductsPage() {
         eyebrow="— The Range"
         title="Six Platforms. One Engineering Standard."
         subtitle="From city transit to sleeper luxury — every Arrival body is built on the same engineering discipline."
-        image="/hero-bus.jpg"
+        image="/images/pages/hero-bus.jpg"
       />
 
       <div className="container-x" style={{ paddingTop: "4rem", paddingBottom: "6rem", display: "flex", flexDirection: "column", gap: "6rem" }}>

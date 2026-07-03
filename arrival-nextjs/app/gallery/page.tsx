@@ -5,18 +5,18 @@ import { useState, useEffect, useRef } from "react";
 type Item = { src: string; alt: string; cat: "Manufacturing"|"Factory"|"Interiors"|"Projects"|"Luxury"|"Electric"|"School" };
 
 const items: Item[] = [
-  { src: "/manufacturing.jpg",  alt: "Assembly line",          cat: "Manufacturing" },
-  { src: "/chassis.jpg",        alt: "Bus chassis",            cat: "Factory"       },
-  { src: "/interior.jpg",       alt: "Luxury interior",        cat: "Interiors"     },
-  { src: "/hero-bus.jpg",       alt: "Marathon coach",         cat: "Projects"      },
-  { src: "/fleet.jpg",          alt: "Delivered fleet",        cat: "Luxury"        },
-  { src: "/product-electric.jpg", alt: "Electric bus",         cat: "Electric"      },
-  { src: "/product-school.jpg", alt: "School bus",             cat: "School"        },
-  { src: "/product-sleeper.jpg",alt: "Sleeper coach",          cat: "Projects"      },
-  { src: "/interior.jpg",       alt: "Cabin ambient lighting", cat: "Luxury"        },
-  { src: "/manufacturing.jpg",  alt: "Robotic welding cell",   cat: "Manufacturing" },
-  { src: "/chassis.jpg",        alt: "Structural frame",       cat: "Factory"       },
-  { src: "/fleet.jpg",          alt: "Ready for dispatch",     cat: "Projects"      },
+  { src: "/images/pages/manufacturing.jpg",  alt: "Assembly line",          cat: "Manufacturing" },
+  { src: "/images/pages/chassis.jpg",        alt: "Bus chassis",            cat: "Factory"       },
+  { src: "/images/pages/interior.jpg",       alt: "Luxury interior",        cat: "Interiors"     },
+  { src: "/images/pages/hero-bus.jpg",       alt: "Marathon coach",         cat: "Projects"      },
+  { src: "/images/pages/fleet.jpg",          alt: "Delivered fleet",        cat: "Luxury"        },
+  { src: "/images/products/product-electric.jpg", alt: "Electric bus",      cat: "Electric"      },
+  { src: "/images/products/product-school.jpg", alt: "School bus",          cat: "School"        },
+  { src: "/images/products/product-sleeper.jpg",alt: "Sleeper coach",       cat: "Projects"      },
+  { src: "/images/pages/interior.jpg",       alt: "Cabin ambient lighting", cat: "Luxury"        },
+  { src: "/images/pages/manufacturing.jpg",  alt: "Robotic welding cell",   cat: "Manufacturing" },
+  { src: "/images/pages/chassis.jpg",        alt: "Structural frame",       cat: "Factory"       },
+  { src: "/images/pages/fleet.jpg",          alt: "Ready for dispatch",     cat: "Projects"      },
 ];
 
 const cats = ["All","Manufacturing","Factory","Interiors","Projects","Luxury","Electric","School"] as const;
@@ -93,7 +93,7 @@ export default function GalleryPage() {
         eyebrow="— Gallery"
         title="From The Floor. From The Fleet."
         subtitle="A visual record of manufacturing, interiors and delivered projects."
-        image="/manufacturing.jpg"
+        image="/images/pages/manufacturing.jpg"
       />
 
       <section className="container-x" style={{ paddingTop: "4rem", paddingBottom: "6rem" }}>

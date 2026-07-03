@@ -500,7 +500,7 @@ export default function AboutPage() {
       {/* ── HERO ── */}
       <section className="uv-hero">
         <div className="uv-hero-bg" ref={parallaxRef}>
-          <img src="/fleet.jpg" alt="Arrival Bus fleet" />
+          <img src="/images/pages/fleet.jpg" alt="Arrival Bus fleet" />
         </div>
         <div className="uv-hero-overlay" />
         <div className="uv-hero-overlay2" />
@@ -522,7 +522,7 @@ export default function AboutPage() {
       <section className="uv-story">
         <div className="uv-story-img">
           <div className="uv-story-img-inner" ref={parallaxRef2}>
-            <img src="/chassis.jpg" alt="Bus chassis engineering" />
+            <img src="/images/pages/chassis.jpg" alt="Bus chassis engineering" />
           </div>
           <div className="uv-story-img-overlay" />
         </div>
@@ -611,11 +611,11 @@ export default function AboutPage() {
       <div className="uv-strip">
         <div className="uv-strip-track">
           {[...Array(2)].flatMap((_, r) => [
-            { src: "/manufacturing.jpg", label: "Manufacturing" },
-            { src: "/interior.jpg",      label: "Interior Craft" },
-            { src: "/hero-bus.jpg",      label: "Final Product" },
-            { src: "/chassis.jpg",       label: "Engineering" },
-            { src: "/fleet.jpg",         label: "Fleet" },
+            { src: "/images/pages/manufacturing.jpg", label: "Manufacturing" },
+            { src: "/images/pages/interior.jpg",      label: "Interior Craft" },
+            { src: "/images/pages/hero-bus.jpg",      label: "Final Product" },
+            { src: "/images/pages/chassis.jpg",       label: "Engineering" },
+            { src: "/images/pages/fleet.jpg",         label: "Fleet" },
           ].map((img, i) => (
             <div key={`${r}-${i}`} className="uv-strip-cell">
               <img src={img.src} alt={img.label} />

@@ -59,7 +59,7 @@ export default function ContactPage() {
         eyebrow="— Contact"
         title="Speak With Our Lead Engineer."
         subtitle="Share your requirement — chassis, route, capacity, timeline. We revert with a specification-grade quotation within 48 hours."
-        image="/interior.jpg"
+        image="/images/pages/interior.jpg"
       />
 
       <section className="container-x grid lg:grid-cols-2 gap-12" style={{ paddingTop: "4rem", paddingBottom: "6rem" }}>

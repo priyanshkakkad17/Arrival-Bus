@@ -32,7 +32,7 @@ export default function HomePage() {
 
       {/* ── HERO ── */}
       <section className="hero-section">
-        <img src="/hero-bus.jpg" alt="Premium luxury coach" className="hero-img" />
+        <img src="/images/pages/hero-bus.jpg" alt="Premium luxury coach" className="hero-img" />
         <div className="hero-overlay-bottom" />
         <div className="hero-overlay-left" />
 
@@ -168,7 +168,7 @@ export default function HomePage() {
             {/* RIGHT — image */}
             <Reveal from="right" delay={150}>
               <div style={{ aspectRatio: "4/5", overflow: "hidden", border: "1px solid var(--border)", width: "100%" }}>
-                <img src="/manufacturing.jpg" alt="Bus assembly line" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                <img src="/images/pages/manufacturing.jpg" alt="Bus assembly line" loading="lazy" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
               </div>
             </Reveal>
 
