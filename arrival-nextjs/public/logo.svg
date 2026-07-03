@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 110" fill="none">
+  <!-- Rounded square border -->
+  <rect x="6" y="6" width="90" height="90" rx="18" stroke="currentColor" stroke-width="7" fill="none"/>
+
+  <!-- Large A (top) -->
+  <path d="M51 15 L72 56 H60 L56.5 46 H45.5 L42 56 H30 Z" fill="currentColor"/>
+
+  <!-- Small A bottom-left -->
+  <path d="M31 60 L41 82 H35 L33 76 H28 L26 82 H20 Z" fill="currentColor"/>
+
+  <!-- Small A bottom-right -->
+  <path d="M71 60 L81 82 H75 L73 76 H68 L66 82 H60 Z" fill="currentColor"/>
+
+  <!-- Bottom bar -->
+  <rect x="20" y="84" width="62" height="6" rx="1" fill="currentColor"/>
+
+  <!-- ARRIVAL wordmark -->
+  <text
+    x="114"
+    y="58"
+    font-family="'Barlow Condensed','Arial Narrow',sans-serif"
+    font-weight="900"
+    font-size="52"
+    letter-spacing="4"
+    fill="currentColor"
+  >ARRIVAL</text>
+
+  <!-- DRIVING THE FUTURE tagline — bigger & bolder -->
+  <text
+    x="116"
+    y="82"
+    font-family="'Barlow','Arial',sans-serif"
+    font-weight="600"
+    font-size="15"
+    letter-spacing="7.5"
+    fill="currentColor"
+  >DRIVING THE FUTURE</text>
+</svg>

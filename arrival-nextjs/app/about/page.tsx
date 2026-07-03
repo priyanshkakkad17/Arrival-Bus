@@ -5,10 +5,11 @@ import { useEffect, useRef, useState } from "react";
 
 /* ── Animated counter ── */
 function useCounter(target: number, duration = 2000) {
-  const [val, setVal] = useState(0);
+  const [val, setVal] = useState<number | null>(null);
   const ref = useRef<HTMLDivElement>(null);
   const started = useRef(false);
   useEffect(() => {
+    setVal(0);
     const el = ref.current;
     if (!el) return;
     const obs = new IntersectionObserver(([e]) => {
@@ -54,7 +55,7 @@ function Stat({ n, label, suffix = "", prefix = "" }: { n: number; label: string
   const { val, ref } = useCounter(n);
   return (
     <div ref={ref} className="uv-stat">
-      <div className="uv-stat-num">{prefix}{val}{suffix}</div>
+      <div className="uv-stat-num" suppressHydrationWarning>{prefix}{val ?? 0}{suffix}</div>
       <div className="uv-stat-label">{label}</div>
     </div>
   );
@@ -419,6 +420,7 @@ export default function AboutPage() {
         }
         .uv-strip-track {
           display: flex;
+          gap: 3rem;
           height: 100%;
           width: max-content;
           animation: stripScroll 18s linear infinite;
@@ -605,6 +607,7 @@ export default function AboutPage() {
       </section>
 
       {/* ── IMAGE STRIP ── */}
+      <div style={{ paddingTop: "4rem" }}>
       <div className="uv-strip">
         <div className="uv-strip-track">
           {[...Array(2)].flatMap((_, r) => [
@@ -620,6 +623,7 @@ export default function AboutPage() {
             </div>
           )))}
         </div>
+      </div>
       </div>
 
       {/* ── CTA ── */}

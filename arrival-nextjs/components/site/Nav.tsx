@@ -31,11 +31,11 @@ export function Nav() {
       <div className="container-x nav-inner">
         {/* LOGO */}
         <Link href="/" className="nav-logo">
-          <div className="nav-logo-icon">A</div>
-          <div>
-            <div className="nav-logo-name">Arrival Bus</div>
-            <div className="nav-logo-sub">Pvt. Ltd.</div>
-          </div>
+          <img
+            src="/logo.svg"
+            alt="Arrival Bus"
+            style={{ height: "58px", width: "auto", filter: "brightness(0) invert(1)" }}
+          />
         </Link>
 
         {/* DESKTOP NAV */}
