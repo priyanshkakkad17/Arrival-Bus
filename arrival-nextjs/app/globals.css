@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&family=Barlow+Condensed:wght@600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&family=Barlow+Condensed:wght@600;700;800;900&display=swap');
 
 :root {
   --background: #0d0d14;
@@ -366,6 +366,16 @@ h2 { font-weight: 800; }
 }
 .nav-mobile-link:hover { color: var(--accent); }
 .nav-mobile-btn { width: max-content; margin-top: 0.5rem; }
+
+/* ── ANIMATE RISE ── */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-rise {
+  opacity: 0;
+  animation: rise 0.8s cubic-bezier(0.16,1,0.3,1) forwards;
+}
 
 /* ── LINE ANIMATION ── */
 .line-draw {

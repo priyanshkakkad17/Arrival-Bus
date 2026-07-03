@@ -1,14 +1,23 @@
+# Next.js build output & cache
+.next/
+out/
+
 # Dependencies
 node_modules/
-
-# Next.js build output
-.next/
 
 # Environment variables
 .env
 .env.local
 .env*.local
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
